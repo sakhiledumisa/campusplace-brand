@@ -9,10 +9,10 @@ Public branding and marketing assets for Campus Place.
 
 ## BIMI Logo
 
-- File: `bimi/logo.svg`
+- File: `bimi/bimi.svg`
 - Format: SVG Tiny PS
 - Public URL (after GitHub Pages is set up):  
-  `https://static.campusplace.org/bimi/logo.svg`
+  `https://static.campusplace.org/bimi/bimi.svg`
 
 ## Usage
 
