@@ -1,27 +1,104 @@
-# Campus Place Brand Assets
+# CampusPlace Brand Assets
 
-Public branding and marketing assets for Campus Place.
+Official brand assets repository for CampusPlace. Includes logos, icons, and BIMI authentication files.
 
-## Structure
+🔗 **Live Gallery:** [View all assets](https://campusplace.github.io/campusplace-brand/)
 
-- `/bimi` — BIMI logo for email (SVG Tiny PS)
-- `/og` — Open Graph images for social sharing and link previews
+## 📁 Repository Structure
 
-## BIMI Logo
+```
+campusplace-brand/
+├── logo/              → Brand logos and icons (9 files)
+├── bimi/              → Email authentication (1 file)
+├── og/                → Open Graph images (reserved)
+├── index.html         → Interactive brand assets gallery
+├── STRUCTURE.md       → Detailed structure documentation
+└── LOGO-SPECS.md      → Logo specifications and requirements
+```
 
-- File: `bimi/bimi.svg`
-- Format: SVG Tiny PS
-- Public URL (after GitHub Pages is set up):  
-  `https://static.campusplace.org/bimi/bimi.svg`
+## 🎨 What's Included
 
-## Usage
+### Brand Logos (9 files)
+- **Primary Logos:** SVG and PNG formats (512px, 192px)
+- **Favicons:** ICO and PNG formats (32×32, 16×16)
+- **Mobile Icons:** Apple Touch Icon, Android Chrome icons
 
-These assets are intended for:
-- Email authentication (BIMI)
-- Social media / Open Graph previews
-- Marketing site and communications
+### BIMI Logo (1 file)
+- **Email Authentication:** SVG Tiny PS compliant logo for BIMI
+- Format: 512×512px, <32KB, solid background
 
-## Notes
+## 🚀 Usage
 
-- Do not use this repository for private or business-only assets.
-- Keep files optimised and properly formatted before uploading.
+### Download Assets
+Visit the [live gallery](https://campusplace.github.io/campusplace-brand/) to:
+- 📥 Download individual assets
+- 🔗 Copy direct links
+- 👁️ Preview all logos
+
+### Direct URLs
+All assets are publicly accessible via GitHub Pages:
+```
+https://campusplace.github.io/campusplace-brand/logo/logo-512.svg
+https://campusplace.github.io/campusplace-brand/logo/favicon.ico
+https://campusplace.github.io/campusplace-brand/bimi/bimi.svg
+```
+
+## 🎯 Brand Guidelines
+
+### Primary Color
+- **Orange:** #FF5722
+- **RGB:** 255, 87, 34
+
+### Logo Usage
+- **Web favicon:** Use `favicon.ico` or `favicon-16x16.png`
+- **Primary branding:** Use `logo-512.svg` (scalable) or `logo-512.png`
+- **Mobile apps:** Use `apple-touch-icon.png` for iOS, `android-chrome-512x512.png` for Android
+- **Email authentication:** Use `bimi/bimi.svg` for BIMI setup
+
+## 📄 Documentation
+
+- **[STRUCTURE.md](STRUCTURE.md)** - Complete file structure and naming conventions
+- **[LOGO-SPECS.md](LOGO-SPECS.md)** - Logo specifications and requirements
+
+## ✨ Features
+
+### Interactive Gallery
+- 🌑 Dark, modern UI
+- 📱 Fully responsive design
+- 💾 One-click downloads
+- 🔗 Copy direct links
+- ✓ Visual feedback on copy
+- 👁️ Preview in new tab
+
+## 🛠️ Technical Details
+
+### BIMI Logo Requirements
+- Format: SVG Tiny PS (version 1.2, baseProfile="tiny-ps")
+- Dimensions: 512×512px square
+- Size: <32KB
+- Background: Solid (no transparency)
+- No clipPath, gradients, or opacity
+
+### File Naming Convention
+```
+{name}-{size}.{ext}
+```
+Examples:
+- `logo-512.svg`
+- `favicon-32x32.png`
+- `android-chrome-192x192.png`
+
+## 📝 Notes
+
+- ✅ All files are optimized for web delivery
+- ✅ Complete coverage for web, mobile, and PWA usage
+- ✅ BIMI-compliant email authentication logo
+- ⚠️ This repository contains **public brand assets only**
+
+## 📜 License
+
+© 2026 CampusPlace. All rights reserved.
+
+These brand assets are proprietary to CampusPlace and may not be used without permission.
+
+**Last Updated:** October 28, 2026
