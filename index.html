@@ -39,40 +39,106 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz@18..144&display=swap');
 
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0a0a0a;
+            font-family: "Merriweather", serif;
+            background-color: #000000;
         }
 
         .brand-card {
-            background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
-            border: 1px solid #2a2a2a;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            background: #0a0a0a;
+            border: 1px solid #1a1a1a;
+            transition: all 0.2s ease;
+            border-radius: 12px;
+            overflow: hidden;
         }
 
         .brand-card:hover {
-            border-color: #3a3a3a;
-            transform: translateY(-4px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            border-color: #2a2a2a;
+        }
+
+        .card-header {
+            position: relative;
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 140px;
+        }
+
+        .favorite-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: all 0.2s ease;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .brand-card:hover .favorite-btn {
+            opacity: 1;
+        }
+
+        .favorite-btn:hover {
+            background: #1a1a1a;
+        }
+
+        .card-content {
+            padding: 16px 20px;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            color: #ffffff;
+        }
+
+        .card-subtitle {
+            font-size: 12px;
+            color: #666666;
+            margin-bottom: 12px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 8px;
+            align-items: center;
         }
 
         .action-btn {
-            background: #1a1a1a;
-            border: 1px solid #2a2a2a;
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            border: 1px solid #1a1a1a;
             transition: all 0.2s ease;
+            color: #999999;
         }
 
         .action-btn:hover {
-            background: #252525;
-            border-color: #3a3a3a;
+            background: #1a1a1a;
+            border-color: #2a2a2a;
+            color: #ffffff;
         }
 
-        .logo-container {
-            background: transparent;
-            border: none;
+        .logo-img {
+            max-width: 80px;
+            max-height: 80px;
+            object-fit: contain;
         }
 
         ::-webkit-scrollbar {
@@ -81,24 +147,24 @@
         }
 
         ::-webkit-scrollbar-track {
-            background: #0a0a0a;
+            background: #000000;
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #2a2a2a;
+            background: #1a1a1a;
             border-radius: 4px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #3a3a3a;
+            background: #2a2a2a;
         }
 
         .copy-notification {
             position: fixed;
             top: 20px;
             right: 20px;
-            background: #1a1a1a;
-            border: 1px solid #2a2a2a;
+            background: #0a0a0a;
+            border: 1px solid #1a1a1a;
             padding: 12px 20px;
             border-radius: 8px;
             opacity: 0;
@@ -133,31 +199,49 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
 
                 <!-- SVG Logo 512 -->
-                <div class="brand-card rounded-xl p-6 relative">
-                    <div class="logo-container rounded-lg p-6 mb-4 flex items-center justify-center"
-                        style="aspect-ratio: 1/1;">
-                        <img src="logo/logo-512.svg" alt="Logo 512 SVG" class="max-w-full max-h-full object-contain">
-                    </div>
-
-                    <h3 class="font-semibold mb-1">Logo 512</h3>
-                    <p class="text-sm text-gray-500 mb-4">SVG • 512×512</p>
-
-                    <div class="flex gap-2">
-                        <a href="logo/logo-512.svg" download
-                            class="action-btn rounded-lg p-2 flex-1 flex items-center justify-center hover:scale-105">
+                <div class="brand-card">
+                    <div class="card-header">
+                        <button class="favorite-btn">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                            </svg>
-                        </a>
-                        <a href="logo/logo-512.svg" target="_blank"
-                            class="action-btn rounded-lg p-2 flex-1 flex items-center justify-center hover:scale-105">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
                                 </path>
                             </svg>
-                        </a>
+                        </button>
+                        <img src="logo/logo-512.svg" alt="Logo 512 SVG" class="logo-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Logo 512</h3>
+                        <p class="card-subtitle">SVG • 512×512</p>
+                        <div class="action-buttons">
+                            <button class="action-btn copy-btn" data-path="logo/logo-512.svg" title="Copy">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <a href="logo/logo-512.svg" download class="action-btn" title="Download">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                                </svg>
+                            </a>
+                            <a href="logo/logo-512.svg" target="_blank" class="action-btn" title="Open">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                    </path>
+                                </svg>
+                            </a>
+                            <button class="action-btn" title="More">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -525,7 +609,7 @@
         </section>
 
         <!-- Footer -->
-        <footer class="text-center pt-12 pb-8 text-gray-600 text-sm border-t border-gray-800">
+        <footer class="text-center pt-12 pb-8 text-gray-500 text-sm border-t border-gray-800">
             <p>CampusPlace Brand Assets &copy; 2026</p>
         </footer>
     </div>
@@ -546,55 +630,14 @@
             }, 2000);
         }
 
-        // Add copy buttons to all cards dynamically
+        // Add copy functionality
         document.addEventListener('DOMContentLoaded', function () {
-            const cards = document.querySelectorAll('.brand-card');
-            cards.forEach(card => {
-                const downloadLink = card.querySelector('a[download]');
-                if (downloadLink) {
-                    const path = downloadLink.getAttribute('href');
-                    const buttonContainer = downloadLink.parentElement;
-
-                    // Create copy button
-                    const copyButton = document.createElement('button');
-                    copyButton.className = 'action-btn rounded-lg p-2 flex-1 flex items-center justify-center hover:scale-105';
-                    copyButton.title = 'Copy link';
-
-                    // Copy icon SVG
-                    const copyIcon = `
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
-                        </svg>
-                    `;
-
-                    // Check icon SVG
-                    const checkIcon = `
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                    `;
-
-                    copyButton.innerHTML = copyIcon;
-
-                    copyButton.onclick = () => {
-                        copyLink(path);
-                        // Change to check icon
-                        copyButton.innerHTML = checkIcon;
-                        copyButton.classList.add('text-green-500');
-                        copyButton.title = 'Copied!';
-
-                        // Reset to copy icon after 2 seconds
-                        setTimeout(() => {
-                            copyButton.innerHTML = copyIcon;
-                            copyButton.classList.remove('text-green-500');
-                            copyButton.title = 'Copy link';
-                        }, 2000);
-                    };
-
-                    // Insert copy button between download and open buttons
-                    const openLink = buttonContainer.querySelector('a[target="_blank"]');
-                    buttonContainer.insertBefore(copyButton, openLink);
-                }
+            const copyButtons = document.querySelectorAll('.copy-btn');
+            copyButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const path = this.getAttribute('data-path');
+                    copyLink(path);
+                });
             });
         });
     </script>
