@@ -2,7 +2,7 @@
 
 Official brand assets repository for CampusPlace. Includes logos, icons, and BIMI authentication files.
 
-🔗 **Live Gallery:** [View all assets](https://campusplace.github.io/campusplace-brand/)
+🔗 **Live Gallery:** [View all assets](https://static.campusplace.org/)
 
 ## 📁 Repository Structure
 
@@ -30,7 +30,7 @@ campusplace-brand/
 ## 🚀 Usage
 
 ### Download Assets
-Visit the [live gallery](https://campusplace.github.io/campusplace-brand/) to:
+Visit the [live gallery](https://static.campusplace.org/) to:
 - 📥 Download individual assets
 - 🔗 Copy direct links
 - 👁️ Preview all logos
@@ -38,9 +38,9 @@ Visit the [live gallery](https://campusplace.github.io/campusplace-brand/) to:
 ### Direct URLs
 All assets are publicly accessible via GitHub Pages:
 ```
-https://campusplace.github.io/campusplace-brand/logo/logo-512.svg
-https://campusplace.github.io/campusplace-brand/logo/favicon.ico
-https://campusplace.github.io/campusplace-brand/bimi/bimi.svg
+https://static.campusplace.org/logo/logo-512.svg
+https://static.campusplace.org/logo/favicon.ico
+https://static.campusplace.org/bimi/bimi.svg
 ```
 
 ## 🎯 Brand Guidelines
