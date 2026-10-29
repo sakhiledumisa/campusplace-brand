@@ -11,6 +11,10 @@ All logo files in various formats and sizes for web, mobile, and PWA usage.
 - `logo-512.svg` - Primary logo (SVG, scalable)
 - `logo-512.png` - Primary logo (PNG, 512×512px)
 - `logo-192.png` - Primary logo (PNG, 192×192px)
+- `logo-512-no-bg.svg` - Primary logo without background (SVG, scalable)
+- `logo-512-no-bg.png` - Primary logo without background (PNG, 512×512px)
+- `logo-192-no-bg.svg` - Primary logo without background (SVG, scalable)
+- `logo-192-no-bg.png` - Primary logo without background (PNG, 192×192px)
 
 **Favicons:**
 - `favicon.ico` - Multi-resolution ICO (16, 32, 48px)
@@ -66,7 +70,7 @@ Examples:
 
 ## File Inventory
 
-**Total files: 9 logo files + 1 BIMI**
+**Total files: 14 logo files + 1 BIMI**
 
 ✅ Complete coverage for:
 - Web favicons
@@ -76,4 +80,4 @@ Examples:
 
 ---
 
-**Last Updated:** October 28, 2026
+**Last Updated:** October 29, 2026

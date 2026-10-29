@@ -8,7 +8,7 @@ Official brand assets repository for CampusPlace. Includes logos, icons, and BIM
 
 ```
 campusplace-brand/
-├── logo/              → Brand logos and icons (9 files)
+├── logo/              → Brand logos and icons (14 files)
 ├── bimi/              → Email authentication (1 file)
 ├── og/                → Open Graph images (reserved)
 ├── index.html         → Interactive brand assets gallery
@@ -18,8 +18,8 @@ campusplace-brand/
 
 ## 🎨 What's Included
 
-### Brand Logos (9 files)
-- **Primary Logos:** SVG and PNG formats (512px, 192px)
+### Brand Logos (14 files)
+- **Primary Logos:** SVG and PNG formats (512px, 192px), including no-background variants
 - **Favicons:** ICO and PNG formats (32×32, 16×16)
 - **Mobile Icons:** Apple Touch Icon, Android Chrome icons
 
@@ -101,4 +101,4 @@ Examples:
 
 These brand assets are proprietary to CampusPlace and may not be used without permission.
 
-**Last Updated:** October 28, 2026
+**Last Updated:** October 29, 2026

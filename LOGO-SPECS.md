@@ -10,6 +10,10 @@ Current brand logo files in the repository.
 - **logo-512.svg** - Primary logo (SVG, scalable)
 - **logo-512.png** - Primary logo (PNG, 512×512px)
 - **logo-192.png** - Primary logo (PNG, 192×192px)
+- **logo-512-no-bg.svg** - Primary logo without background (SVG, scalable)
+- **logo-512-no-bg.png** - Primary logo without background (PNG, 512×512px)
+- **logo-192-no-bg.svg** - Primary logo without background (SVG, scalable)
+- **logo-192-no-bg.png** - Primary logo without background (PNG, 192×192px)
 
 ### Favicons
 - **favicon.ico** - Multi-resolution ICO (16, 32, 48px)
@@ -24,7 +28,7 @@ Current brand logo files in the repository.
 ### Email Authentication
 - **../bimi/bimi.svg** - BIMI-compliant SVG for email
 
-**Total: 10 files (9 logos + 1 BIMI)**
+**Total: 15 files (14 logos + 1 BIMI)**
 
 ---
 
@@ -66,6 +70,6 @@ Only add these if you have specific needs:
 
 ## Conclusion
 
-✅ **Your 10 files are complete and sufficient** for standard web, mobile, and email usage.
+✅ **Your 15 files are complete and sufficient** for standard web, mobile, and email usage.
 
 Only expand if you need dark mode variants or enhanced social sharing.
