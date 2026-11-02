@@ -45,9 +45,17 @@ https://static.campusplace.org/bimi/bimi.svg
 
 ## 🎯 Brand Guidelines
 
-### Primary Color
-- **Orange:** #FF5722
-- **RGB:** 255, 87, 34
+### Brand Colors
+- **Lime Green (Primary):** #a0ec06
+  - **RGB:** 160, 236, 6
+  - **Usage:** Logo symbol, primary branding elements
+- **Dark Olive (Background):** #273302
+  - **RGB:** 39, 51, 2
+  - **Usage:** Logo backgrounds, supporting elements
+
+### Typography
+- **Headings:** Space Grotesk
+- **Body Text:** DM Sans
 
 ### Logo Usage
 - **Web favicon:** Use `favicon.ico` or `favicon-16x16.png`
@@ -101,4 +109,4 @@ Examples:
 
 These brand assets are proprietary to CampusPlace and may not be used without permission.
 
-**Last Updated:** October 29, 2026
+**Last Updated:** November 02, 2026
