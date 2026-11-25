@@ -56,11 +56,19 @@ Only add these if you have specific needs:
 
 ---
 
-## Brand Color
+## Brand Color (Olive Palette)
 
-**Primary Orange:**
-- HEX: #FF5722
-- RGB: 255, 87, 34
+Synced with campusplace-web:
+
+**Olive 950 (Primary / Deep):**
+- HEX: #283000
+- RGB: 40, 48, 0
+- Usage: Logo symbol (transparent variants), solid backgrounds
+
+**Olive 400 (Lighter):**
+- HEX: #8a9e2e
+- RGB: 138, 158, 46
+- Usage: Symbol on dark/olive backgrounds
 
 **Supporting:**
 - White: #FFFFFF
