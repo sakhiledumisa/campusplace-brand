@@ -45,13 +45,17 @@ https://static.campusplace.org/bimi/bimi.svg
 
 ## 🎯 Brand Guidelines
 
-### Brand Colors
-- **Lime Green (Primary):** #a0ec06
-  - **RGB:** 160, 236, 6
-  - **Usage:** Logo symbol, primary branding elements
-- **Dark Olive (Background):** #273302
-  - **RGB:** 39, 51, 2
-  - **Usage:** Logo backgrounds, supporting elements
+### Brand Colors (Olive Palette)
+Synced with campusplace-web / campusplace-learn:
+- **Olive 950 (Primary / Deep):** #283000
+  - **RGB:** 40, 48, 0
+  - **Usage:** Logo symbol (no-bg variants), backgrounds, primary solid elements
+- **Olive 700:** #4b5e00
+  - **RGB:** 75, 94, 0
+  - **Usage:** Accents, mid-tone branding
+- **Olive 400 (Lighter):** #8a9e2e
+  - **RGB:** 138, 158, 46
+  - **Usage:** Logo symbol on dark backgrounds, dark-mode chrome
 
 ### Typography
 - **Headings:** Space Grotesk
@@ -109,4 +113,4 @@ Examples:
 
 These brand assets are proprietary to CampusPlace and may not be used without permission.
 
-**Last Updated:** November 02, 2026
+**Last Updated:** November 25, 2026
